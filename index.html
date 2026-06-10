@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Developer Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>Developer Dashboard</h1>
+
+
+<div class="cards">
+
+
+<div class="card">
+<h2 id="time">00:00</h2>
+<p>Current Time</p>
+</div>
+
+
+<div class="card">
+
+<h2 id="date"></h2>
+
+<p>Date</p>
+
+</div>
+
+
+<div class="card">
+
+<h2 id="count">0</h2>
+
+<p>Tasks</p>
+
+</div>
+
+
+</div>
+
+
+
+<div class="todo">
+
+
+<h2>Task Manager</h2>
+
+
+<input id="task"
+placeholder="Enter task">
+
+
+<button onclick="addTask()">
+Add
+</button>
+
+
+<ul id="list"></ul>
+
+
+</div>
+
+
+
+<div class="github">
+
+
+<h2>GitHub Finder</h2>
+
+
+<input id="username"
+placeholder="GitHub username">
+
+
+<button onclick="findUser()">
+Search
+</button>
+
+
+<div id="profile"></div>
+
+
+</div>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
